@@ -15,11 +15,16 @@ const SearchBar = () => {
         }
   return (
     <div>
-        <form>
-            <input type='search' placeholder='Food'/>
-            <input type="search" placeholder='Location' />
-            <input type='submit' value='Submit'/>
-        </form>
+        <div>
+            <ul>{renderSortByOptions()}</ul>
+        </div>
+        <div>
+            <input type='search' placeholder='Search Businesses'/>
+            <input type="search" placeholder='Where?' />
+        </div>
+        <div>
+            <a>Let's Go</a>
+        </div>
     </div>
   )
 };
