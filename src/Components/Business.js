@@ -9,7 +9,7 @@ const business = {
     zipcode: "10101",
     category: "ITALIAN",
     rating: "4.5 stars",
-    reviewCount: "90 reviews"
+    review_count: "90 reviews"
 
 }
 
@@ -24,7 +24,7 @@ const Business = () => {
         <p>{business.zipcode}</p>
         <h3>{business.category}</h3>
         <h4>{business.rating}</h4>
-        <p>{business.reviewCount}</p>
+        <p>{business.review_count}</p>
     </div>
   )
 }
