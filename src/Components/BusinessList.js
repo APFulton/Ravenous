@@ -1,5 +1,6 @@
 import React from 'react'
 import Business from './Business'
+import styles from './BusinessLists.module.css'
 
 const BusinessList = () => {
   return (

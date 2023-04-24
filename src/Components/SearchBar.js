@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './SearchBar.module.css'
 
 const sortByOptions = {
     "Best Match": "best_match",
@@ -14,8 +15,8 @@ const SearchBar = () => {
           });
         }
   return (
-    <div>
-        <div>
+    <div className={styles.SearchBar}>
+        <div className={styles.searchBarSortOptions}>
             <ul>{renderSortByOptions()}</ul>
         </div>
         <div>
