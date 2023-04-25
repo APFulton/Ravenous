@@ -17,12 +17,13 @@ const business = {
 const Business = () => {
   return (
     <div className={styles.Business}>
+      <div className='imageContainer'>
         <img src={business.imageSrc} />
+      </div>
         <h2>{business.name}</h2>
         <p>{business.address}</p>
         <p>{business.city}</p>
-        <p>{business.state}</p>
-        <p>{business.zipcode}</p>
+        <p>{business.state} {business.zipcode}</p>
         <h3>{business.category}</h3>
         <h4>{business.rating}</h4>
         <p>{business.review_count}</p>

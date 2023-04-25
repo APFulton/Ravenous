@@ -4,7 +4,7 @@ import styles from './BusinessLists.module.css'
 
 const BusinessList = () => {
   return (
-    <ul>
+    <ul className='card'>
         <li><Business /></li>
         <li><Business /></li>
         <li><Business /></li>
