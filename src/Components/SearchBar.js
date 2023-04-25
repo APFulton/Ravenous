@@ -22,9 +22,9 @@ const SearchBar = () => {
         <div>
             <input type='search' placeholder='Search Businesses'/>
             <input type="search" placeholder='Where?' />
-        </div>
-        <div>
-            <a>Let's Go</a>
+            <div>
+                <input className='button' type='submit' value="Let's Go" />
+            </div>  
         </div>
     </div>
   )
