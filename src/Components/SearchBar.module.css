@@ -1,5 +1,20 @@
-.searchBarSortOptions {
-    flex: auto;
-    border-bottom: black 20px;
+ .SearchBar {
+    background-image: url(../Resources/background_search_desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    height: 300px;
 }
+
+.searchBarSortOptions li {
+    display: inline;
+    align-items: center;
+    border-bottom: solid 2px white;
+    margin-top: 50px;
+}
+
+
 
