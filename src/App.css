@@ -6,10 +6,10 @@
   font-family: Helvetica, sans-serif;
   top: 0;
   margin: 0;
-
+  position: absolute;
+  width: 100%;
 }
 
 .search {
   background-image: url(./Resources/background_search_desktop.jpg);
-  top: 0;
 }
