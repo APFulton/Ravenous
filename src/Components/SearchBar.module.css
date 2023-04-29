@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 20px;
     text-align: center;
     height: 500px;
@@ -27,7 +27,7 @@
     margin: 20px ;
     border-radius: 5px;
     color: gray;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-weight: 800;
 }
 
@@ -35,9 +35,9 @@
 .button {
    margin: 50px;
    color: white;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: Helvetica, sans-serif;
    font-size: 20px;
-   background-color: goldenrod;
+   background-color: rgb(195, 153, 71);
    border-radius: 5px;
    font-size: 20px;
    box-shadow: none;
