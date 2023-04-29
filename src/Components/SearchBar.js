@@ -20,8 +20,8 @@ const SearchBar = () => {
             <ul>{renderSortByOptions()}</ul>
         </div>
         <div>
-            <input className={styles.searchFields} type='search' placeholder='Search Businesses'/>
-            <input className={styles.searchFields} type="search" placeholder='Where?' />
+            <input className={styles.searchFields} type='search' placeholder='      Search Businesses'/>
+            <input className={styles.searchFields} type="search" placeholder='      Where?' />
             <div>
                 <input className={styles.button} type='submit' value="Let's Go" />
             </div>  
