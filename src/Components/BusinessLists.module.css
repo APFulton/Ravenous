@@ -1,3 +1,5 @@
-.card {
+ul .card {
     display: inline-flex;
+    gap: 1.5rem;
+    columns: 3;
 }

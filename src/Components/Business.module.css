@@ -4,10 +4,19 @@
     color: black;
     padding: 10px;
     margin: auto;
+    max-width: 300px;
 }
 
-.imageContainer {
-    max-width: 100px;
+.Business h2 {
+    text-align: left;
+    font-size: 25px;
+}
+
+.imageContainer img{
+    max-width: 300px;
+    height: auto;
+    resizeMode: 'contain';
+    overflow: hidden;
 }
 
 * {
@@ -20,4 +29,11 @@ h3 {
 
 h4 {
     color: rgb(195, 153, 71);
+}
+
+
+.info {
+    columns: 2;
+    text-align: end;
+    line-height: 5px;
 }

@@ -4,13 +4,13 @@ import styles from './BusinessLists.module.css'
 
 const BusinessList = () => {
   return (
-    <ul className='card'>
-        <li><Business /></li>
-        <li><Business /></li>
-        <li><Business /></li>
-        <li><Business /></li>
-        <li><Business /></li>
-        <li><Business /></li>
+    <ul className= {styles.card}>
+        <li className= {styles.card}><Business /></li>
+        <li className= {styles.card}><Business /></li>
+        <li className= {styles.card}><Business /></li>
+        <li className= {styles.card}><Business /></li>
+        <li className= {styles.card}><Business /></li>
+        <li className= {styles.card}><Business /></li>
     </ul>
   )
 }
