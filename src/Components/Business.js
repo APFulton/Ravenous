@@ -22,12 +22,12 @@ const Business = () => {
       </div>
         <h2>{business.name}</h2>
       <div className={styles.info}>
-        <p>{business.address}</p>
-        <p>{business.city}</p>
-        <p>{business.state} {business.zipcode}</p>
-        <h3>{business.category}</h3>
-        <h4>{business.rating}</h4>
-        <p>{business.review_count}</p>
+        <p id='col1'>{business.address}</p>
+        <p id='col1'>{business.city}</p>
+        <p id='col1'>{business.state} {business.zipcode}</p>
+        <h3 id='col2'>{business.category}</h3>
+        <h4 id='col2'>{business.rating}</h4>
+        <p id='col2'>{business.review_count}</p>
         </div>
     </div>
   )

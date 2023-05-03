@@ -34,6 +34,8 @@ h4 {
 
 .info {
     columns: 2;
-    text-align: end;
-    line-height: 5px;
+}
+
+.info #col1 {
+    color: aqua;
 }
