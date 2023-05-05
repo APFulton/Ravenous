@@ -22,11 +22,11 @@ const SearchBar = () => {
         <div className={styles.searchFields}>
             <input type='search' placeholder='      Search Businesses'/>
             <input type="search" placeholder='      Where?' />
-            <div className={styles.button} >
+        </div>
+        <div className={styles.button} >
                 <a>Let's Go!</a>
             </div>  
         </div>
-    </div>
   )
 };
 export default SearchBar;

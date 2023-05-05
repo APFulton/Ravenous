@@ -13,6 +13,7 @@
     justify-content: center;
     margin-bottom: 2.22rem;
     color: white;
+    margin-top: 7rem;
 }
 
 .SearchBarSortOptions li {
@@ -33,16 +34,25 @@
     display: flex;
     justify-content: center;
     margin-bottom: 2.88rem;
+    margin-left: 1.9rem;
 }
 
+.searchFields input {
+    width: 20rem;
+    padding: 0.66rem 1rem;
+    margin-right: 2rem;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
 .button {
     text-align: center;
 }
 
 .button a {
-    background-color: #cca353;
+    background-color: rgb(195, 153, 71);
     width: 21rem;
-    border-radius: 4px;
+    border-radius: 5px;
     padding: 0.72rem 1.7rem;
     color: white;
     font-weight: 600;
@@ -53,3 +63,4 @@
     cursor: pointer;
     background-color: #a7874b;
 }
+
