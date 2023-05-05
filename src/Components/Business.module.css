@@ -1,22 +1,26 @@
 .Business {
-    display: inline;
-    text-align: center;
-    color: black;
-    padding: 10px;
-    margin: auto;
-    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 16.6rem;
+    margin: 0 0.5rem 2.3rem 0.5rem;
 }
 
 .Business h2 {
-    text-align: left;
-    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
-.imageContainer img{
-    max-width: 300px;
-    height: auto;
-    resizeMode: 'contain';
+.Business .imageContainer{
+    height: 16.6rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     overflow: hidden;
+    background: black;
 }
 
 * {

@@ -12,7 +12,7 @@ const business = {
     rating: "4.5 stars",
     review_count: "90 reviews"
 
-}
+};
 
 const Business = () => {
   return (
