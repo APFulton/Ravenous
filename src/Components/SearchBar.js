@@ -16,14 +16,14 @@ const SearchBar = () => {
         }
   return (
     <div className={styles.SearchBar}>
-        <div className={styles.searchBarSortOptions}>
+        <div className={styles.SearchBarSortOptions}>
             <ul>{renderSortByOptions()}</ul>
         </div>
-        <div>
-            <input className={styles.searchFields} type='search' placeholder='      Search Businesses'/>
-            <input className={styles.searchFields} type="search" placeholder='      Where?' />
-            <div>
-                <input className={styles.button} type='submit' value="Let's Go" />
+        <div className={styles.searchFields}>
+            <input type='search' placeholder='      Search Businesses'/>
+            <input type="search" placeholder='      Where?' />
+            <div className={styles.button} >
+                <a>Let's Go!</a>
             </div>  
         </div>
     </div>

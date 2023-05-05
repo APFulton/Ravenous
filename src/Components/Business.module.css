@@ -23,6 +23,11 @@
     background: black;
 }
 
+.imageContainer img {
+    width: 100%;
+}
+
+
 * {
     font-family: Helvetica, sans-serif;
 }

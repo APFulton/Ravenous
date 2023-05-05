@@ -1,51 +1,55 @@
  .SearchBar {
+    display: flex;
+    flex-direction: column;
     background-image: url(../Resources/background_search_desktop.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 25rem;
+ }
+
+.SearchBarSortOptions ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.22rem;
     color: white;
-    font-family: Helvetica, sans-serif;
-    font-size: 20px;
-    text-align: center;
-    height: 500px;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
-.searchBarSortOptions li {
-    display: inline-block;
-    padding: 40px 40px 5px 40px;
-    align-items: center;
-    border-bottom: solid 2px white;
-    margin-top: 100px;
-    font-size: 20px;
-    font-weight: 600;
-    max-width: 100px;
-    text-align: center;
+.SearchBarSortOptions li {
+    cursor: pointer;
+    width: 4.33rem;
+  border-bottom: 1px solid #fff;
+  padding: 0 2.58rem 0.33rem 2.58rem;
+  line-height: 1.13;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.83rem;
+  transition: color 0.25s;
+  list-style: none;
+
 }
 
 .searchFields {
-    width: 350px;
-    height: 40px;
-    margin: 20px ;
-    border-radius: 5px;
-    color: gray;
-    font-family: Helvetica, sans-serif;
-    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.88rem;
 }
 
-
 .button {
-   margin: 30px;
-   color: white;
-   font-family: Helvetica, sans-serif;
-   font-size: 20px;
-   background-color: rgb(195, 153, 71);
-   border-radius: 5px;
-   font-size: 20px;
-   box-shadow: none;
-   padding: 10px 30px 10px 30px;
-   font-weight: 600;
-   outline-offset: 0px;
-   outline-style:hidden;
+    text-align: center;
+}
+
+.button a {
+    background-color: #cca353;
+    width: 21rem;
+    border-radius: 4px;
+    padding: 0.72rem 1.7rem;
+    color: white;
+    font-weight: 600;
+    transition: background-color 0.5s;
+}
+
+.button a:hover {
+    cursor: pointer;
+    background-color: #a7874b;
 }
